@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edf3f5;
+}
+header{
+    background-color: white;
+    height: 80px;
+    vertical-align: middle;
+    line-height: 80px;
+}
+#logo{
+    height: 50px;
+    margin-left: 2%;
+}
+header h1{
+    display: inline;
+}
+main{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+#buttons-function{
+    
+}
