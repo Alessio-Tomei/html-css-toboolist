@@ -25,6 +25,9 @@ main{
     margin: auto;
     margin-top: 5%;
 }
-#buttons-function{
-    
+div.task p{
+    display: inline-block;
+}
+div.key-word{
+    display: inline-block;
 }
