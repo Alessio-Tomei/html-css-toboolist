@@ -7,6 +7,7 @@
 body{
     background-color: #edf3f5;
 }
+/* sistemare logo img e logo scritta */
 header{
     background-color: white;
     height: 80px;
@@ -20,6 +21,7 @@ header{
 header h1{
     display: inline;
     font-weight: 900;
+    vertical-align: middle;
 }
 main{
     background-color: white;
@@ -27,9 +29,13 @@ main{
     margin: auto;
     margin-top: 5%;
     overflow: hidden;
+    /* padding:0px 30px; */
 }
 section{
-    margin: 2% auto;
+    margin: 2% 5%;
+}
+section h2,div.task{
+    margin-bottom: 15px;
 }
 div.task p{
     display: inline-block;
@@ -44,7 +50,10 @@ div.key-word{
     font-size: 10px;
     font-weight:100;
 }
+/* Sistemare tasti  */
 #buttons-function{
     height: 30px;
     border-bottom: 2px solid #edf3f5;
+    margin: 2% auto;
+    padding: 0% 5%;
 }
