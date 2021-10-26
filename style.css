@@ -7,16 +7,16 @@
 body{
     background-color: #edf3f5;
 }
-/* sistemare logo img e logo scritta */
 header{
     background-color: white;
     height: 80px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     line-height: 80px;
 }
 #logo{
     height: 50px;
     margin-left: 2%;
+    vertical-align: middle;
 }
 header h1{
     display: inline;
@@ -57,6 +57,7 @@ div.key-word{
     margin: 2% auto;
     padding: 0% 5%;
 }
+
 section h2::after{
     content: "\25BE";
 }
