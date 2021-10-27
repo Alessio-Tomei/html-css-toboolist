@@ -77,7 +77,7 @@ div.key-word{
     border-width: 1px;
     border-color: #ccd1d5;  
 }
-section h2::after{
+section h2::before{
     content: "\25BE";
 }
 .uncheck::after{
